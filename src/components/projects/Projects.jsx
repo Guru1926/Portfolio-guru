@@ -191,7 +191,7 @@ const Projects = () => {
 
                     <div className='project__buttons'>
                         <a href="https://github.com/Guru1926/naykaa-clone" target="_blank"><i class='bx bxl-github'></i></a>
-                        <a href="https://nykaa-clone-web.netlify.app/" target="_blank"><i class='bx bx-link'></i></a>
+                        <a href="https://nykaa-clone-v2.netlify.app/" target="_blank"><i class='bx bx-link'></i></a>
                     </div>
 
                 </div>
