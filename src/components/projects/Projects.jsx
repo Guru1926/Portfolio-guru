@@ -1,5 +1,10 @@
 import React from 'react'
 import './projects.css'
+import urban from '../../assets/urbanHero2.png'
+import nykaa from '../../assets/nykaaHero.png'
+import blue from '../../assets/blueHero.png'
+import horse from '../../assets/hourseHero.png'
+
 
 
 const Projects = () => {
@@ -116,6 +121,9 @@ const Projects = () => {
                 {/* ================================================== */}
                 <div className="projects__contents">
                     <h3 className="projects__title">The Urban Company</h3>
+                    <img src={urban} className="Hero_img" />
+                    <br />
+                    <br />
                     <p className="projects__info">Clone of an  website, especially to provide home services and sell home appliances.</p>
 
                     <div className="projects__box">
@@ -158,6 +166,9 @@ const Projects = () => {
                 {/* ========================================================== */}
                 <div className="projects__contents">
                     <h3 className="projects__title">Nykaa</h3>
+                    <img src={nykaa} className="Hero_img" />
+                    <br />
+                    <br />
                     <p className="projects__info">Clone of an e-commerce website, especially for the beauty products and appliances.</p>
                     <div className="projects__box">
                         <div className="projects__group">
@@ -198,6 +209,9 @@ const Projects = () => {
                 {/* ========================================================== */}
                 <div className="projects__contents">
                     <h3 className="projects__title">Blue Mercury</h3>
+                    <img src={blue} className="Hero_img" />
+                    <br />
+                    <br />
                     <p className="projects__info">Clone of an e-commerce website, especially for the Cosmetics as well as in-store facials and spa treatments</p>
                     <div className="projects__box">
                         <div className="projects__group">
@@ -237,6 +251,9 @@ const Projects = () => {
                 {/* ========================================================== */}
                 <div className="projects__contents">
                     <h3 className="projects__title">The Horse </h3>
+                    <img src={horse} className="Hero_img" />
+                    <br />
+                    <br />
                     <p className="projects__info">Clone of an e-commerce website, especially for the beauty products and fashion accessories.</p>
                     <div className="projects__box">
                         <div className="projects__group">
